@@ -1,0 +1,14 @@
+name: krout
+version: 0.1.0
+authors:
+  - Jon <jonegeland@gmail.com>
+description: |
+  Simple routing extensions for Kemal.
+crystal: 0.20.1
+license: MIT
+
+
+development_dependencies:
+  kemal:
+    github: kemalcr/kemal
+    branch: master
