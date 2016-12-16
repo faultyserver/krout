@@ -39,7 +39,7 @@ See `/examples/*` for more detailed explanations of each feature.
 
 ## Development
 
-The goal of this project is to add small, common features to Kemal's routing DSL. As such, it's scope is small, and larger features likely won't be included.
+The goal of this project is to add small, common features to Kemal's routing DSL with as little overhead as possible. As such, it's scope is small, and larger features likely won't be included.
 
 Each feature should be defined in it's own file under `/src/krout` (e.g., `scope` is defined in `/src/krout/scope.cr`). If a feature encapsulates multiple smaller features, consider creating a subfolder. Ideally, users will be able to selectively include the features they need (e.g., `require "krout/scope"` versus just `require "krout"`).
 
